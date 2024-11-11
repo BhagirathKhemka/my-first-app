@@ -2,4 +2,3 @@
 
 
 Version control exercise with notebook translation. 
-this is some text
