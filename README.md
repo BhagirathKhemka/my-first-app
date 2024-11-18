@@ -44,6 +44,14 @@ Run the stocks report:
 ```sh
 python -m app.stocks_report
 ```
+
+### web app
+Run the web app (then view in the browser at http://localhost:5000/):
+```sh
+FLASK_APP=web_app flask run
+flask run
+```
+
 ## Testing
 
 Run tests:
