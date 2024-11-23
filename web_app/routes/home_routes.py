@@ -31,6 +31,8 @@ def hello_world():
     # access "name" key if present, otherwise use default value
     name = url_params.get("name") or "World"
 
-    message = f"Hello, {name}!"
-    return message
-    #return render_template("hello.html", message=message)
+   message = f"Hello, {name}!"
+
+    x = 5
+    #return message
+    return render_template("hello.html", message=message, x=x, y=20)
