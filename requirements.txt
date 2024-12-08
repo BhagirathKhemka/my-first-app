@@ -9,3 +9,5 @@ pandas
 pytest
 
 flask
+
+gunicorn
